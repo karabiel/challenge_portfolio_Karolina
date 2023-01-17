@@ -6,7 +6,7 @@
   
 ### Subtask 1: 6/10 pkt
   
-~~### Subtask 2: ***?***~~
+### ~~Subtask 2: ***?***~~
   
 ### Subtask 3:
 > Dlaczego zdecydował_ś się na udział w challenge portfolio?
@@ -55,7 +55,7 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
   
 > 4.5 Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?
 
-**Panel logowania**
+***Panel logowania***
 
 - Brak możliwości założenia konta do aplikacji.
 - Brak możliwości zmiany hasła konta użytkownika.
@@ -63,7 +63,8 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 - Dodanie raportu możliwe jest tylko w podstronie *Mecze*, gdy jest dodany przynajmniej jeden mecz - przechodząc ze *Strony głównej* do podstrony *Gracze* przechodzimy do dowolnego gracza, klikając w dowolną informację o danym graczu, w menu bocznym (po lewej stronie), Wybierając w *Raportach* przycisk *Dodaj raport* wyświetla się podstrona *Mecze* zamiast formularza dodawania raportu.
 
 
-**Dodawanie / Edycja gracza**
+	
+**Podstrona *Dodawanie / Edycja gracza***
 
 - Filtr pozwala odznaczyć wszystkie kolumny (powinien wyświetlać przynajmniej jedną aktywną kolumnę).
 
@@ -97,7 +98,7 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 
 
 
-**Dodawanie / Edycja meczu**
+**Podstrona *Dodawanie / Edycja meczu***
 
 - Pola *Web match* oraz *General* nie są przetłumaczone w polskiej wersji językowej formularza.
 
@@ -108,6 +109,7 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 - W formularzu *Edycja gracza* oraz *Edycja meczu* w języku polskim przyciski *submit* oraz *clear* powinny być przetłumaczone na język polski.
 
 
+	
 **Akcja *rozpocznij mecz***
 
 - Podstrona jest nieintuicyjna, nie ma wyjaśnienia w jaki sposób z niej korzystać.
@@ -123,7 +125,7 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 - Przy dużej ilości dodanych akcji, pole boiska jest nieczytelne.
 
 
-**Edycja raportu**
+**Podstrona *Edycja raportu***
 
 - W formularzu *Dodawania gracza* województwo nie jest obowiązkowym polem do uzupełnienia, a w momencie dodawania raportu na podstawie meczu pojawia się komunikat, że pole "województwo" danego gracza jest wymagane.
 
