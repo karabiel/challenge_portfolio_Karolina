@@ -1,10 +1,10 @@
-# challenge_portfolio_Karolina
-<sub> Plik zawierający zadania z pierwszego sprintu z DareIT 2023
+ # challenge_portfolio_Karolina
+ 
+<sub> Plik zawierający zadania z pierwszego sprintu z DareIT 2023 :innocent:
   
 ## [TASK 1](#TASK-1)
   
-### Subtask 1:
-6/10 pkt
+### Subtask 1: 6/10 pkt
   
 ~~### Subtask 2: ***?***~~
   
@@ -12,7 +12,7 @@
 > Dlaczego zdecydował_ś się na udział w challenge portfolio?
 
 Mam na imię Karolina.
-Mam nadzieję nabyć nowe umiejętności dzięki temu challenge'owi oraz wykorzystać swoje cechy - dokładność, dociekliwość, spostrzegawczość - dzięki którym uda mi się przebranżowić. M.in. w tym celu tworzę portfolio, które pozwoli mi się wykazać.
+Mam nadzieję nabyć nowe umiejętności dzięki temu challenge'owi oraz wykorzystać swoje cechy - dokładność, dociekliwość, spostrzegawczość - dzięki którym uda mi się sprawniej przebranżowić. M.in. w tym celu tworzę portfolio, które pozwoli mi się wykazać.
 
   
 ### Subtask 4: Testy eksploracyjne na podstawie [tej strony](https://url6405.circle.so/ls/click?upn=kwbwkXnZT32McfWCrnlzohrrzmJl0FdCrPNYFeExGRupuKOWxL3SRDijXgSLkpsWkAYFbk-2FbK4pd3TjJ2LtD4g-3D-3Dhwhr_U5Lv1wU5VRexpMaNRwFFyodbZkCZw8GlxZFvBQlnFrNGc6W9hqNpURZYqqBeLvdEDkKNUnHlYdA4C938wTn1DI3XamE-2FHVs5dolvXKj6piyN1PwIsrbNT7RIN6S1F5pTUb0c3wWBTwktEiLA7Lwkap72KuINBVRqLrrt6DrtmlDa6K2Dk8ONWql0E6Qra-2FaAFtNUagm0PevgK6WHeLiv9w-3D-3D)
@@ -39,7 +39,7 @@ Funkcjonalności:
 	- wybranie wyświetlanych kolumn
 	- filtrowanie tabeli
 
-Nie wszystkie są intuicyjne, o czym będę pisać później.
+Nie wszystko jest intuicyjne, o czym będę pisać później.
 
   
 > 4.3 Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
@@ -69,7 +69,7 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 
 - Dodawanie gracza możliwe jest tylko z *Linków pomocniczych* znajdujących się na *Stronie głównej*. Powinna być dostępna opcja dodania gracza w podstronie *Gracze*.
 
-- Wpisując do formularza *Edycja gracza* dane liczbowe w polach *wzrost* i *waga*, system zezwala na wyświetlanie liczb ujemnych oraz nierealnych (np. 2 cm wzrostu oraz 2000 kg masy ciała).
+- Wpisując do formularza *Edycja gracza* dane liczbowe w polach *wzrost* i *waga*, system zezwala na wyświetlanie liczb ujemnych oraz abstrakcyjnych (np. 2 cm wzrostu oraz 2000 kg masy ciała).
 
 - W formularzu *Edycji gracza* przycisk *Clear* powoduje cofnięcie wprowadzonych zmian, a nie usunięcie danych ze wszystkich pól, jakby sugerowało to słowo.
 
@@ -89,23 +89,23 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 
 - Nie ma możliwości usunięcia dodanego gracza.
 
-- W formularzu *Edycja gracza* oraz *Edycja meczu* w języku polskim przyciski *submit* oraz *clear* powinny być przetłumaczone na język polski.
-
-w angielskiej wersji formularza *Edycja gracza* województwa w liście rozwijanej nie są prawidłowo przetłumaczone.
+- W angielskiej wersji językowej formularza województwa w liście rozwijanej nie są wymienione alfabetycznie.
 
 - Pole *Profil facebook* można uzupełnić dowolną wartością.
 
-- Pola *Łączy nas piłka*i *90 minut* - nie wiadomo co to znaczy, jakimi danymi je uzupełnić.
+- Pola *Łączy nas piłka* i *90 minut* - nie wiadomo co to znaczy, jakimi danymi je uzupełnić.
 
 
 
 **Dodawanie / Edycja meczu**
 
-- Pola *Web match* oraz *General* nie są przetłumaczone w polskiej wersji językowej formularza *Edycja meczu*.
+- Pola *Web match* oraz *General* nie są przetłumaczone w polskiej wersji językowej formularza.
 
-- Wybór rodzaju meczu nie jest obowiązkowym polem do zaznaczenia, ale jeśli nie zaznaczy się rodzaju meczu to formularz zaznacza drugą z kolei opcję - *mecz wyjazdowy*.
+- Wybór rodzaju meczu nie jest obowiązkowym polem do zaznaczenia, ale jeśli nic się nie zaznaczy to formularz zaznacza drugą z kolei opcję (*mecz wyjazdowy*), co widać po ponownym wejściu w edycję danego meczu.
 
 - Pole *czas gry* nie ma podanej jednostki (min) oraz nie jest ograniczony do odpowiednich wartości - może zostać wypełniony wartością ujemną, zerem, wartością powyżej 120 (w domyśle - minut).
+
+- W formularzu *Edycja gracza* oraz *Edycja meczu* w języku polskim przyciski *submit* oraz *clear* powinny być przetłumaczone na język polski.
 
 
 **Akcja *rozpocznij mecz***
@@ -146,5 +146,5 @@ w angielskiej wersji formularza *Edycja gracza* województwa w liście rozwijane
 
 
 ### Subtask 5: Jira (zadanie dodatkowe)
-Zostałam dodana do zespołu Justyny.
+Zostałam dodana do zespołu Justyny oraz Oliwii :sweat_smile:
 
