@@ -3,116 +3,148 @@
   
 ## [TASK 1](#TASK-1)
   
-### Subtask 1: 6/10
+### Subtask 1:
+6/10 pkt
   
-### Subtask 2: ***?***
+~~### Subtask 2: ***?***~~
   
-### Subtask 3: [Odpowiedź na pytanie / cel, oczekiwania od projektu]
-> Dlaczego zdecydował_ś się na udział w challenge portfolio
+### Subtask 3:
+> Dlaczego zdecydował_ś się na udział w challenge portfolio?
+
+Mam na imię Karolina.
+Mam nadzieję nabyć nowe umiejętności dzięki temu challenge'owi oraz wykorzystać swoje cechy - dokładność, dociekliwość, spostrzegawczość - dzięki którym uda mi się przebranżowić. M.in. w tym celu tworzę portfolio, które pozwoli mi się wykazać.
+
   
 ### Subtask 4: Testy eksploracyjne na podstawie [tej strony](https://url6405.circle.so/ls/click?upn=kwbwkXnZT32McfWCrnlzohrrzmJl0FdCrPNYFeExGRupuKOWxL3SRDijXgSLkpsWkAYFbk-2FbK4pd3TjJ2LtD4g-3D-3Dhwhr_U5Lv1wU5VRexpMaNRwFFyodbZkCZw8GlxZFvBQlnFrNGc6W9hqNpURZYqqBeLvdEDkKNUnHlYdA4C938wTn1DI3XamE-2FHVs5dolvXKj6piyN1PwIsrbNT7RIN6S1F5pTUb0c3wWBTwktEiLA7Lwkap72KuINBVRqLrrt6DrtmlDa6K2Dk8ONWql0E6Qra-2FaAFtNUagm0PevgK6WHeLiv9w-3D-3D)
 
-> - Na czym polega ta aplikacja? Do czego służy?
 
-  - Aplikacja *Scouts panel* służy do zbierania informacji na temat piłkarzy oraz ich edycja, zarówno w języku polskim, jak i angielskim.
+> 4.1 Na czym polega ta aplikacja? Do czego służy?
+
+Aplikacja *Futbol kolektyw. Platforma skautingowa* służy do zbierania informacji na temat piłkarzy oraz edycja tych informacji, zarówno w języku polskim, jak i angielskim.
+
+Logując się do panelu jako użytkownik, mamy możliwość dodania gracza, meczu oraz raportu czy przeglądanie istniejących rekordów oraz ich edycja.
 
 
-> - Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a? (Nie bój się wyrażać opinię!)
+> 4.2 Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?
 
 Funkcjonalności:
 - logowanie do panelu
 - przypomnienie hasła do logowania
 - zmiana języka polski/angielski
-- 
--
+- kontakt z Dev team z pozycji *Scouts panel* - odnośnik do Slack'a
+- dodanie gracza z pozycji *Linków pomocniczych*
+- przeglądanie dodanych graczy
+	- pobranie CSV
+	- druk
+	- wybranie wyświetlanych kolumn
+	- filtrowanie tabeli
+
+Nie wszystkie są intuicyjne, o czym będę pisać później.
 
   
-  - W podstronie *Gracze* umieściłabym przycisk dodawania nowego gracza.
+> 4.3 Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
 
-- W podstronie *Gracze* przy wymienionych graczach umieściłabym akcje - np. symbol *ołówka* sugerujący edycję danej pozycji.
 
-w *dodaj język* lista rozwijana
+Strona ogólnie jest prosta, przejrzysta. Jest wporządku jak dla mnie.
 
-*Łączy nas piłka*, *90 minut* - nie wiadomo co to znaczy, jakimi danymi uzupełnić nazwane w ten sposób pola.
 
-W formularzu *Edycja raportu* w polu *Wstęp* wprowadziłabym ograniczenie do jednego akapitu.
+> 4.4 Czy aplikacja jest intuicyjna?
 
-  
-> - Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
-
-*rozpocznij mecz* nie ma żadnego wyjaśnienia w jaki sposób uzupełnić informacje w tym temacie.
-
+Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z dodawaniem raportu oraz meczu również jest problem, o czym szerzej piszę poniżej.
 
   
-> - Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
+> 4.5 Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?
 
-W formularzu *Dodawania gracza* województwo nie jest obowiązkowym polem do uzupełnienia, a w momencie dodawania raportu na podstawie meczu pojawia się komunikat, że pole "województwo" danego gracza jest wymagane.
-  
-> - Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. 
+**Panel logowania**
 
-- Brak możliwości założenia konta do panelu
+- Brak możliwości założenia konta do aplikacji.
+- Brak możliwości zmiany hasła konta użytkownika.
+- W podstronie *Gracze* oznaczenia ikonek (po najechaniu na nie myszą) nie są przetłumaczone z języka angielskiego na polskiej wersji językowej.
+- Dodanie raportu możliwe jest tylko w podstronie *Mecze*, gdy jest dodany przynajmniej jeden mecz - przechodząc ze *Strony głównej* do podstrony *Gracze* przechodzimy do dowolnego gracza, klikając w dowolną informację o danym graczu, w menu bocznym (po lewej stronie), Wybierając w *Raportach* przycisk *Dodaj raport* wyświetla się podstrona *Mecze* zamiast formularza dodawania raportu.
 
-- Przechodząc ze *Strony głównej* do podstrony *Gracze* przechodzimy do dowolnego gracza, klikając w dowolną informację o danym graczu, w menu bocznym (po lewej stronie), Wybierając w *Raportach* przycisk *Dodaj raport* wyświetla się podstrona *Mecze* zamiast formularza dodawania raportu. Dodanie raportu możliwe jest tylko w podstronie *Mecze*, gdy jest dodany przynajmniej jeden mecz
-
-dodawanie gracza możliwe tylko z *Linków pomocniczych* znajdujących się na *Stronie głównej*.
 
 **Dodawanie / Edycja gracza**
+
+- Filtr pozwala odznaczyć wszystkie kolumny (powinien wyświetlać przynajmniej jedną aktywną kolumnę).
+
+- Dodawanie gracza możliwe jest tylko z *Linków pomocniczych* znajdujących się na *Stronie głównej*. Powinna być dostępna opcja dodania gracza w podstronie *Gracze*.
 
 - Wpisując do formularza *Edycja gracza* dane liczbowe w polach *wzrost* i *waga*, system zezwala na wyświetlanie liczb ujemnych oraz nierealnych (np. 2 cm wzrostu oraz 2000 kg masy ciała).
 
 - W formularzu *Edycji gracza* przycisk *Clear* powoduje cofnięcie wprowadzonych zmian, a nie usunięcie danych ze wszystkich pól, jakby sugerowało to słowo.
 
-w pola obowiązkowe można wpisać spację i formularz jest akceptowany
+- Opcja sortowania nie jest dostępna dla kolumn *Mecze* oraz *Raporty*.
 
-w polu *Imię* oraz *Nazwisko* można wpisać dowolne znaki
+- W obowiązkowe pola (*Imię*, *Nazwisko* oraz *Główna pozycja*) można wpisać dowolne znaki (w tym samą spację) oraz ich ilość nie jest limitowana.
 
-data urodzenia nie ma limitu, można wybrać datę poniżej 1900 r. i powyżej 2023 r.
+- Pole *Data urodzenia* nie ma limitu, można wybrać datę poniżej 1900 r. i powyżej 2023 r.
 
-numer telefonu - zezwala na wprowadzenie dowolnych znaków zamiast cyfr
+- Pole *Numer telefonu* - zezwala na wprowadzenie dowolnych znaków oraz nie ma ograniczenia ilości znaków.
 
-e-mail - zezwala wprowadzać dowolne znaki, jednocześnie nie informując w czym jest błąd (wymagany znak *@*)
+- Pole *E-mail* - nie informuje w czym jest błąd przy wpisywaniu nieprawidłowych wartości (wymagany znak *@*, limit znaków).
 
-link z YouTube - dowolne znaki, bez sprawdzenia czy jest to url
+- Pole *Link z YouTube* zezwala na wprowadzenie dowolnych znaków, bez sprawdzenia czy jest to URL.
 
-*Dodaj język* - pozwala wprowadzić dowolne znaki
+- Przycisk *Dodaj język* - pozwala wprowadzić dowolne znaki lub pozostawić puste pole (powinna być np. rozwijana lista).
 
-brak możliwości usunięcia dodanego gracza
+- Nie ma możliwości usunięcia dodanego gracza.
 
 - W formularzu *Edycja gracza* oraz *Edycja meczu* w języku polskim przyciski *submit* oraz *clear* powinny być przetłumaczone na język polski.
 
 w angielskiej wersji formularza *Edycja gracza* województwa w liście rozwijanej nie są prawidłowo przetłumaczone.
 
+- Pole *Profil facebook* można uzupełnić dowolną wartością.
+
+- Pola *Łączy nas piłka*i *90 minut* - nie wiadomo co to znaczy, jakimi danymi je uzupełnić.
+
+
 
 **Dodawanie / Edycja meczu**
 
-*Web match* oraz *General* są nieprzetłumaczone w polskiej wersji językowej formularza *Edycja meczu*
+- Pola *Web match* oraz *General* nie są przetłumaczone w polskiej wersji językowej formularza *Edycja meczu*.
 
-jeśli nie zaznaczy się rodzaju meczu to zaznacza się druga z kolei opcja *mecz wyjazdowy*
+- Wybór rodzaju meczu nie jest obowiązkowym polem do zaznaczenia, ale jeśli nie zaznaczy się rodzaju meczu to formularz zaznacza drugą z kolei opcję - *mecz wyjazdowy*.
 
-*czas gry* nie ma podanej jednostki (min) oraz może być wypełniony wartością *0*
+- Pole *czas gry* nie ma podanej jednostki (min) oraz nie jest ograniczony do odpowiednich wartości - może zostać wypełniony wartością ujemną, zerem, wartością powyżej 120 (w domyśle - minut).
 
-*Rozpocznij mecz* - można dodawać duże ilości połowy meczu (gdzie w domyśle są tylko dwie).
+
+**Akcja *rozpocznij mecz***
+
+- Podstrona jest nieintuicyjna, nie ma wyjaśnienia w jaki sposób z niej korzystać.
+
+- Można dodawać duże ilości połowy meczu (gdzie w domyśle są tylko dwie).
+
+- Symbol "kosza" nie wykonuje żadnej akcji.
+
+- Brak możliwości edycji wprowadzonych akcji.
+
+- Po kliknięciu w symbol *play* odliczany jest czas - mecz trwa zwykle ok. 90 min.
+
+- Przy dużej ilości dodanych akcji, pole boiska jest nieczytelne.
 
 
 **Edycja raportu**
 
-W formularzu edycji raportu podpowwiedź do pola *Inteligencja boiskowa* w pierwszym zdaniu jest użyty podwójnie ukośnik, a kilka słów dalej zabrakło jednego z nich (rozdzielenie słów *piłki* od *Ocena*)
+- W formularzu *Dodawania gracza* województwo nie jest obowiązkowym polem do uzupełnienia, a w momencie dodawania raportu na podstawie meczu pojawia się komunikat, że pole "województwo" danego gracza jest wymagane.
 
-W formularzu edycji raportu w podpowiedzi do pola *Mentalność* w dwóch ostatnich zdaniach brakuje znaków interpunkcyjnych (kolejno: kropki oraz znaku zapytania).
+- W formularzu edycji raportu podpowiedź do pola *Inteligencja boiskowa* w pierwszym zdaniu jest użyty podwójnie ukośnik, a kilka słów dalej zabrakło jednego z nich (rozdzielenie słów *piłki* od *Ocena*).
 
-W formularzu edycji raportu w podpowiedzi do pola "Recenzja" pierwsze zdanie ("Wybieramy 1 spośród poniższych punktów") jedynka powinna być zapisana słownie aby nie wprowadzać w błąd przy ocenie w skali 1-5. Dodatkowo formularz pozwala zaznaczyć połowę "gwiazdki".
+- W podpowiedzi do pola *Mentalność* w dwóch ostatnich zdaniach brakuje znaków interpunkcyjnych - kropki na końcu przedostatniego zdania oraz znaku zapytania na końcu ostatniego zdania.
 
-Formularz *Edycja raportu* pozwala zapisywać niewypełnione wszystkie pola.
+- W podpowiedzi do pola "Recenzja" pierwsze zdanie ("Wybieramy 1 spośród poniższych punktów") jedynka powinna być zapisana słownie, aby nie wprowadzać w błąd przy ocenie w skali 1-5. Dodatkowo formularz pozwala zaznaczyć połowę "gwiazdki".
 
-W formularzu *Edycja raportu* nieprawidłowo działa opcja wypunktowania listy - w przypadku próby dodania kolejnej pozycji do stworzonej listy, nie pojawia się przy niej kolejny symbol - kropka lub cyfra w przypadku listy numerowanej.
+- Formularz pozwala zapisywać niewypełnione wszystkie pola.
 
-czasem Zaznaczając jedno z kilku słów i wybierając aby było zapisane kursywą, przechyla się również słowo znajdujące się w tej samej linijce przed oraz po wybranym słowie.
+- Formularz pozwala zostawić komentarze z samymi spacjami.
 
-brak instrukcji oraz tytułu podstrony "rozpocznij mecz"
-zegar odliczający czas - mecz trwa zwykle ok. 90 min
-przy dużej ilości akcji pole boiska jest nieczytelne
+- Nieprawidłowo działa opcja wypunktowania listy - w przypadku próby dodania kolejnej pozycji do stworzonej listy, nie pojawia się przy niej kolejny symbol - kropka lub cyfra w przypadku listy numerowanej.
+
+- Zaznaczając jedno z kilku słów i wybierając aby było zapisane kursywą, przechyla się również słowo znajdujące się w tej samej linijce przed oraz po wybranym słowie.
+
+- Przechodząc z wypełnianego formularza użytkownik nie zostaje zapytany, czy na pewno chce porzucić wprowadzane informacje.
 
 
-przechodząc z wypełnianego formularza użytkownik nie zostaje zapytany o to czy na pewno chce porzucić wprowadzane informacje
 
 ### Subtask 5: Jira (zadanie dodatkowe)
+Zostałam dodana do zespołu Justyny.
+
