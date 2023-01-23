@@ -90,11 +90,21 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 
 - Nie ma możliwości usunięcia dodanego gracza.
 
-- W angielskiej wersji językowej formularza województwa w liście rozwijanej nie są wymienione alfabetycznie.
-
 - Pole *Profil facebook* można uzupełnić dowolną wartością.
 
 - Pola *Łączy nas piłka* i *90 minut* - nie wiadomo co to znaczy, jakimi danymi je uzupełnić.
+
+
+
+Dodatkowo, w angielskiej wersji językowej formularza:
+
+- Województwa w liście rozwijanej nie są wymienione alfabetycznie.
+
+- Pole *Age* (w angielskiej wersji językowej) powinno być przetłumaczone na *Date of birth*.
+
+- Pole *Leg* nie ma wyjaśnienia, co oznacza.
+
+- Pole *Łączy nas piłka* i *90 minut* nie są przetłumaczone na język polski.
 
 
 
@@ -150,3 +160,21 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 ### Subtask 5: Jira (zadanie dodatkowe)
 Zostałam dodana do zespołu Justyny oraz Oliwii :sweat_smile:
 
+
+## [TASK 2](#TASK-2)
+  
+### Subtask 1: Pisanie przypadków testowych na podstawie User Story.
+[Link do pliku z Subtask 1](https://docs.google.com/document/d/16axYt9oWGVhoxJG_qsYtjMcE5DUH_8Lb6Pc2V6E4WtQ/edit?usp=sharing)
+
+
+### Subtask 2: Pisanie przypadków testowych na podstawie “własnych doświadczeń".
+[Link do pliku z Subtask 2](https://docs.google.com/document/d/1GMdhsz729eZkyM9er0wHh-U1uyYDE_b8DTaAOpzDUXg/edit)
+
+
+### Subtask 3: Po co piszemy test case’y?
+//opis możliwości
+-poprawne napisanie TC pozwala w większym stopniu zapobiegać defektom -> oszczędność pieniędzy na ewentualnych poprawkach -> budowanie zaufania do produktu końcowego -> 
+-sprawdzenie czy wybrana ścieżka programu spełnia dane wymagania
+
+
+### Subtask 4: zad. z gwiazdką
