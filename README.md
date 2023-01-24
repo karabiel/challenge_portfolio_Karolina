@@ -167,7 +167,7 @@ Zostałam dodana do zespołu Justyny oraz Oliwii :sweat_smile:
 [Link do pliku z Subtask 1](https://docs.google.com/document/d/16axYt9oWGVhoxJG_qsYtjMcE5DUH_8Lb6Pc2V6E4WtQ/edit?usp=sharing)
 
 
-### Subtask 2: Pisanie przypadków testowych na podstawie “własnych doświadczeń".
+### Subtask 2: Pisanie przypadków testowych na podstawie *własnych doświadczeń*.
 [Link do pliku z Subtask 2](https://docs.google.com/document/d/1GMdhsz729eZkyM9er0wHh-U1uyYDE_b8DTaAOpzDUXg/edit)
 
 
@@ -178,3 +178,7 @@ Zostałam dodana do zespołu Justyny oraz Oliwii :sweat_smile:
 
 
 ### Subtask 4: zad. z gwiazdką
+
+**work in progress**
+
+<img src="https://digiday.com/wp-content/uploads/sites/3/2015/08/progress.gif?w=1030" width="500" height="100" />
