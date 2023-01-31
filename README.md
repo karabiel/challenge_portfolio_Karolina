@@ -6,9 +6,7 @@
   
 ### Subtask 1: 6/10 pkt
   
-### ~~Subtask 2: ***?***~~
-  
-### Subtask 3:
+### Subtask 3: Słowo wstępu
 > Dlaczego zdecydował_ś się na udział w challenge portfolio?
 
 Mam na imię Karolina.
@@ -164,11 +162,11 @@ Zostałam dodana do zespołu Justyny oraz Oliwii :sweat_smile:
 ## [TASK 2](#TASK-2)
   
 ### Subtask 1: Pisanie przypadków testowych na podstawie User Story.
-[Link do pliku z Subtask 1](https://docs.google.com/document/d/16axYt9oWGVhoxJG_qsYtjMcE5DUH_8Lb6Pc2V6E4WtQ/edit?usp=sharing)
+[Link do pliku z Task 2. Subtask 1](https://docs.google.com/document/d/16axYt9oWGVhoxJG_qsYtjMcE5DUH_8Lb6Pc2V6E4WtQ/edit?usp=sharing)
 
 
 ### Subtask 2: Pisanie przypadków testowych na podstawie “własnych doświadczeń".
-[Link do pliku z Subtask 2](https://docs.google.com/document/d/1GMdhsz729eZkyM9er0wHh-U1uyYDE_b8DTaAOpzDUXg/edit)
+[Link do pliku z Task 2. Subtask 2](https://docs.google.com/document/d/1GMdhsz729eZkyM9er0wHh-U1uyYDE_b8DTaAOpzDUXg/edit)
 
 
 ### Subtask 3: Po co piszemy test case’y?
@@ -178,7 +176,21 @@ Zostałam dodana do zespołu Justyny oraz Oliwii :sweat_smile:
 
 
 ### Subtask 4: Dla chętnych
-Jestem chętna do zrobienia tego zadania, ściągnęłam nawet tamtą aplikację (*Pick Eat Up*), ale jeszcze nie napisałam do niej TC. Za jakiś czas to uzupełnię.
+Jestem chętna do zrobienia tego zadania, ściągnęłam nawet tamtą aplikację (*Pick Eat Up*), ale jeszcze nie napisałam do niej TC. Za jakiś czas to uzupełnię. 
+
+
+## [TASK 3](#TASK-3)
+
+### Subtask 1: Bug report template.
+[Link do pliku z Task 3. Subtask 1.](https://docs.google.com/document/d/1djLZ09u_bKfx9MLl1AxAG-ykcWMUVo546pexBoXBvAo/edit)
+
+### Subtask 2: Bug report.
+[Link do pliku z Task 3. Subtask 2.](https://docs.google.com/document/d/1fc_X-yDKoup5dAW1CryDtON9PDTs1DBv-mdBZgsI9uk/edit)
+  
+### Subtask 3 - Test report.
+[Link do pliku z Task 3. Subtask 3.](https://docs.google.com/document/d/1KBOfmVwDDewuCNtc_5K7XHYyNXzRtOEJ_VUHEgW1zSM/edit)
+
+
 
 <img src="https://digiday.com/wp-content/uploads/sites/3/2015/08/progress.gif?w=1030" width="500" height="100" />
 
