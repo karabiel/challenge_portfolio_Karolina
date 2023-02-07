@@ -16,14 +16,14 @@ Mam nadzieję nabyć nowe umiejętności dzięki temu challenge'owi oraz wykorzy
 ### Subtask 4: Testy eksploracyjne na podstawie [tej strony](https://url6405.circle.so/ls/click?upn=kwbwkXnZT32McfWCrnlzohrrzmJl0FdCrPNYFeExGRupuKOWxL3SRDijXgSLkpsWkAYFbk-2FbK4pd3TjJ2LtD4g-3D-3Dhwhr_U5Lv1wU5VRexpMaNRwFFyodbZkCZw8GlxZFvBQlnFrNGc6W9hqNpURZYqqBeLvdEDkKNUnHlYdA4C938wTn1DI3XamE-2FHVs5dolvXKj6piyN1PwIsrbNT7RIN6S1F5pTUb0c3wWBTwktEiLA7Lwkap72KuINBVRqLrrt6DrtmlDa6K2Dk8ONWql0E6Qra-2FaAFtNUagm0PevgK6WHeLiv9w-3D-3D)
 
 
-> 4.1 Na czym polega ta aplikacja? Do czego służy?
+> Na czym polega ta aplikacja? Do czego służy?
 
 Aplikacja *Futbol kolektyw. Platforma skautingowa* służy do zbierania informacji na temat piłkarzy oraz edycja tych informacji, zarówno w języku polskim, jak i angielskim.
 
 Logując się do panelu jako użytkownik, mamy możliwość dodania gracza, meczu oraz raportu czy przeglądanie istniejących rekordów oraz ich edycja.
 
 
-> 4.2 Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?
+> Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?
 
 Funkcjonalności:
 - logowanie do panelu
@@ -40,18 +40,18 @@ Funkcjonalności:
 Nie wszystko jest intuicyjne, o czym będę pisać później.
 
   
-> 4.3 Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
+> Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
 
 
 Strona ogólnie jest prosta, przejrzysta. Jest wporządku jak dla mnie.
 
 
-> 4.4 Czy aplikacja jest intuicyjna?
+> Czy aplikacja jest intuicyjna?
 
 Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z dodawaniem raportu oraz meczu również jest problem, o czym szerzej piszę poniżej.
 
   
-> 4.5 Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?
+> Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?
 
 ***Panel logowania***
 
@@ -190,6 +190,65 @@ Jestem chętna do zrobienia tego zadania, ściągnęłam nawet tamtą aplikację
 ### Subtask 3 - Test report.
 [Link do pliku z Task 3. Subtask 3.](https://docs.google.com/document/d/1KBOfmVwDDewuCNtc_5K7XHYyNXzRtOEJ_VUHEgW1zSM/edit)
 
+
+
+## [TASK 4](#TASK-4)
+ 
+### Subtask 1: Formatka do zgłaszania błędów systemu
+
+***Na podstawie aplikacji OLX***
+
+[Link do pliku z Task 4. Subtask 1.](https://docs.google.com/document/d/1vt3dzxLDdNeluTY2paLiySLEmWjmvrv8LjWzXWVNItw/edit)
+
+### Subtask 2: Testowanie eksploracyjne i raportowanie błędów
+[Link do pliku z Task 4. Subtask 2.](https://docs.google.com/document/d/10Z9YXiHvSQIUTTH_gE_tWjCFvfwflCbufErSiO5BM9w/edit)
+ 
+### Subtask 3: Do czego służy ta aplikacja (OLX)?
+
+> Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
+
+Aplikacja OLX służy do dodawania / edycji / usuwania ogłoszeń (jako autor), przeglądania i zapisu ogłoszeń (jako nabywca) oraz kontaktowanie się z autorami.
+
+Ma funkcje m.in.:
+- utwórz konto do aplikacji - przez adres e-mail, konto na Facebook'u, konto Apple, konto Google,
+- zaloguj jako użytkownik prywatny / firma - jw.,
+- utwórz ogłoszenie - sprzedaj / oddaj za darmo / wymień / wypożycz,
+- edytuj ogłoszenie,
+- odśwież ogłoszenie,
+- promuj ogłoszenie,
+- zakończ utworzone ogłoszenia,
+- przeglądaj dodane ogłoszenia,
+- dodaj filt wyszukiwania ogłoszeń do *obserwowanych*,
+- dodaj ogłoszenie do *obserwowanych*,
+- napisz wiadomość do autora ogłoszenia,
+- skontaktuj się z autorem ogłoszenia poprzez podany numer telefonu,
+- oceń transakcję,
+- przesyłki - sprzedajesz, kupujesz, dane do wypłat,
+- płatności (portfel),
+- zgłoś naruszenie ogłoszenia,
+- zmień ustawienia - edytuj konto (imię, adres e-mail, hasło), powiadomienia, tryb jasny/ciemny,
+- wyloguj się,
+- usuń konto.
+
+> Kto ma być użytkownikiem końcowym aplikacji?
+
+Osoby prywatne, które dokonują transakcji na odległość lub osobiście, wymieniają się rzeczami, sprzedają je lub oddają, od innych osób prywatnych lub firm.
+Powinna to być raczej osoba dorosła, która w minimalnym stopniu potrafi posługiwać się telefonem z dostępem do Internetu. Bez znaczenia 
+
+
+> Czy według Ciebie aplikacja jest user friendly?
+
+Raczej tak. Chociaż często zmieniają się kategorie i regulamin strony co może po jakimś czasie irytować.
+
+
+> Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?
+
+Jeszcze muszę się nad tym zastanowić.
+
+> Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+
+Testowanie aplikacji natywnej jest bardziej ograniczone (sprzętowo) - nie ma możliwości zmiany środowiska testowania, jak w przypadku testowania aplikacji internetowej, gdzie można dowoli zmieniać systemy operacyjne, przeglądarki internetowe itd.
+Na komputerze można emulować telefon czy tablet, w drugą stronę jest to co najmniej uciążliwe.
 
 
 <img src="https://digiday.com/wp-content/uploads/sites/3/2015/08/progress.gif?w=1030" width="500" height="100" />
