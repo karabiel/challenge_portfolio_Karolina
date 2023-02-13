@@ -1,31 +1,36 @@
  # challenge_portfolio_Karolina
  
-<sub> Plik zawierający zadania z pierwszego sprintu z DareIT 2023 :innocent:
+<sub> :blue_heart: Plik zawierający zadania z pierwszego sprintu z DareIT 2023 :blue_heart:
   
-## [TASK 1](#TASK-1)
+## [TASK 1.](#TASK-1) Testy eksploracyjne :zap:
   
-### Subtask 1: 6/10 pkt
-  
-### Subtask 3: Słowo wstępu
-> Dlaczego zdecydował_ś się na udział w challenge portfolio?
+### Subtask 1.: Test z teorii :nerd_face:
+Wynik: 6/10 pkt :pinching_hand:
 
-Mam na imię Karolina.
-Mam nadzieję nabyć nowe umiejętności dzięki temu challenge'owi oraz wykorzystać swoje cechy - dokładność, dociekliwość, spostrzegawczość - dzięki którym uda mi się sprawniej przebranżowić. M.in. w tym celu tworzę portfolio, które pozwoli mi się wykazać.
+### Subtask 2.: Utworzenie repozytorium :books:
+Właśnie się w nim znajdujemy :innocent:
+  
+### Subtask 3.: Słowo wstępu :scroll:
+> Dlaczego zdecydowałaś się na udział w challenge portfolio?
+
+Cześć :wave: Mam na imię Karolina. :blonde_woman:
+
+Mam nadzieję nabyć nowe umiejętności dzięki temu challenge'owi oraz wykorzystać swoje cechy - dokładność :jigsaw: , dociekliwość :raised_eyebrow: , spostrzegawczość :mag: - dzięki którym uda mi się sprawniej przebranżowić. M.in. w tym celu tworzę portfolio, które pozwoli mi się wykazać. :woman_technologist: 
 
   
-### Subtask 4: Testy eksploracyjne na podstawie [tej strony](https://url6405.circle.so/ls/click?upn=kwbwkXnZT32McfWCrnlzohrrzmJl0FdCrPNYFeExGRupuKOWxL3SRDijXgSLkpsWkAYFbk-2FbK4pd3TjJ2LtD4g-3D-3Dhwhr_U5Lv1wU5VRexpMaNRwFFyodbZkCZw8GlxZFvBQlnFrNGc6W9hqNpURZYqqBeLvdEDkKNUnHlYdA4C938wTn1DI3XamE-2FHVs5dolvXKj6piyN1PwIsrbNT7RIN6S1F5pTUb0c3wWBTwktEiLA7Lwkap72KuINBVRqLrrt6DrtmlDa6K2Dk8ONWql0E6Qra-2FaAFtNUagm0PevgK6WHeLiv9w-3D-3D)
+### Subtask 4.: Testy eksploracyjne na podstawie strony *[Scouts Panel](https://scouts-test.futbolkolektyw.pl/)*
 
 
 > Na czym polega ta aplikacja? Do czego służy?
 
-Aplikacja *Futbol kolektyw. Platforma skautingowa* służy do zbierania informacji na temat piłkarzy oraz edycja tych informacji, zarówno w języku polskim, jak i angielskim.
+:soccer: Aplikacja *Futbol kolektyw. Platforma skautingowa* służy do zbierania informacji na temat piłkarzy oraz edycja tych informacji, zarówno w języku polskim, jak i angielskim.
 
 Logując się do panelu jako użytkownik, mamy możliwość dodania gracza, meczu oraz raportu czy przeglądanie istniejących rekordów oraz ich edycja.
 
 
-> Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?
+> Jakie funkcjonalności znajdują się w aplikacji? Do czego służą? Czy są intuicyjne, czy może byś coś zmieniła?
 
-Funkcjonalności:
+:hammer_and_wrench: Funkcjonalności:
 - logowanie do panelu
 - przypomnienie hasła do logowania
 - zmiana języka polski/angielski
@@ -43,17 +48,17 @@ Nie wszystko jest intuicyjne, o czym będę pisać później.
 > Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
 
 
-Strona ogólnie jest prosta, przejrzysta. Jest wporządku jak dla mnie.
+:wink: Strona ogólnie jest bardzo prosta, przejrzysta. Jest wporządku jak dla mnie. Porównując ze stronami gdzie jest zbyt dużo kolorów, dodatków itd. to wolę w tę stronę.
 
 
 > Czy aplikacja jest intuicyjna?
 
-Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z dodawaniem raportu oraz meczu również jest problem, o czym szerzej piszę poniżej.
+:disguised_face: Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z dodawaniem raportu oraz meczu również jest problem, o czym szerzej piszę poniżej.
 
   
 > Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?
 
-***Panel logowania***
+***Panel logowania*** :key:
 
 - Brak możliwości założenia konta do aplikacji.
 - Brak możliwości zmiany hasła konta użytkownika.
@@ -62,7 +67,7 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 
 
 	
-**Podstrona *Dodawanie / Edycja gracza***
+**Podstrona *Dodawanie / Edycja gracza*** :standing_man: :standing_person:
 
 - Filtr pozwala odznaczyć wszystkie kolumny (powinien wyświetlać przynajmniej jedną aktywną kolumnę).
 
@@ -94,7 +99,7 @@ Niezbyt. Dodawanie nowego gracza jest dostępne tylko na stronie głównej. Z do
 
 
 
-Dodatkowo, w angielskiej wersji językowej formularza:
+Dodatkowo, w angielskiej wersji językowej formularza: :leg:
 
 - Województwa w liście rozwijanej nie są wymienione alfabetycznie.
 
@@ -106,7 +111,7 @@ Dodatkowo, w angielskiej wersji językowej formularza:
 
 
 
-**Podstrona *Dodawanie / Edycja meczu***
+**Podstrona *Dodawanie / Edycja meczu*** :running_man: :runner:
 
 - Pola *Web match* oraz *General* nie są przetłumaczone w polskiej wersji językowej formularza.
 
@@ -118,7 +123,7 @@ Dodatkowo, w angielskiej wersji językowej formularza:
 
 
 	
-**Akcja *rozpocznij mecz***
+**Akcja *rozpocznij mecz*** :stopwatch:
 
 - Podstrona jest nieintuicyjna, nie ma wyjaśnienia w jaki sposób z niej korzystać.
 
@@ -133,7 +138,7 @@ Dodatkowo, w angielskiej wersji językowej formularza:
 - Przy dużej ilości dodanych akcji, pole boiska jest nieczytelne.
 
 
-**Podstrona *Edycja raportu***
+**Podstrona *Edycja raportu*** :writing_hand:
 
 - W formularzu *Dodawania gracza* województwo nie jest obowiązkowym polem do uzupełnienia, a w momencie dodawania raportu na podstawie meczu pojawia się komunikat, że pole "województwo" danego gracza jest wymagane.
 
@@ -155,57 +160,58 @@ Dodatkowo, w angielskiej wersji językowej formularza:
 
 
 
-### Subtask 5: Jira (zadanie dodatkowe)
-Zostałam dodana do zespołu Justyny oraz Oliwii :sweat_smile:
+### Subtask 5.: Jira (zadanie dodatkowe) :star:
 
 
-## [TASK 2](#TASK-2)
+## [TASK 2.](#TASK-2) Test cases :computer:
+***Na podstawie strony [Scouts Panel](https://scouts-test.futbolkolektyw.pl/).***
   
-### Subtask 1: Pisanie przypadków testowych na podstawie User Story.
-[Link do pliku z Task 2. Subtask 1](https://docs.google.com/document/d/16axYt9oWGVhoxJG_qsYtjMcE5DUH_8Lb6Pc2V6E4WtQ/edit?usp=sharing)
+### Subtask 1.: Pisanie przypadków testowych na podstawie User Story :couple:
+:link: [Task 2. Subtask 1.](https://docs.google.com/document/d/16axYt9oWGVhoxJG_qsYtjMcE5DUH_8Lb6Pc2V6E4WtQ/edit?usp=sharing)
 
 
-### Subtask 2: Pisanie przypadków testowych na podstawie “własnych doświadczeń".
-[Link do pliku z Task 2. Subtask 2](https://docs.google.com/document/d/1GMdhsz729eZkyM9er0wHh-U1uyYDE_b8DTaAOpzDUXg/edit)
+### Subtask 2.: Pisanie przypadków testowych na podstawie :sparkles: własnych doświadczeń :sparkles:.
+:link: [Task 2. Subtask 2.](https://docs.google.com/document/d/1GMdhsz729eZkyM9er0wHh-U1uyYDE_b8DTaAOpzDUXg/edit)
 
 
-### Subtask 3: Po co piszemy test case’y?
+### Subtask 3.: Po co piszemy test case’y? :thinking:
 - poprawne napisanie TC pozwala w większym stopniu zapobiegać defektom -> oszczędność pieniędzy na ewentualnych poprawkach
 
 - sprawdzenie czy wybrana ścieżka programu spełnia dane wymagania -> budowanie zaufania do produktu końcowego
 
 
-### Subtask 4: Dla chętnych
+### Subtask 4.: Dla chętnych :star2:
 Jestem chętna do zrobienia tego zadania, ściągnęłam nawet tamtą aplikację (*Pick Eat Up*), ale jeszcze nie napisałam do niej TC. Za jakiś czas to uzupełnię. 
 
 
-## [TASK 3](#TASK-3)
+## [TASK 3.](#TASK-3) Raportowanie błędów
+***Na podstawie strony [Panel Skautingowy](https://scouts.futbolkolektyw.pl/).***
 
-### Subtask 1: Bug report template.
-[Link do pliku z Task 3. Subtask 1.](https://docs.google.com/document/d/1djLZ09u_bKfx9MLl1AxAG-ykcWMUVo546pexBoXBvAo/edit)
+### Subtask 1.: Bug report template :lady_beetle:
+:link: [Task 3. Subtask 1.](https://docs.google.com/document/d/1djLZ09u_bKfx9MLl1AxAG-ykcWMUVo546pexBoXBvAo/edit)
 
-### Subtask 2: Bug report.
-[Link do pliku z Task 3. Subtask 2.](https://docs.google.com/document/d/1fc_X-yDKoup5dAW1CryDtON9PDTs1DBv-mdBZgsI9uk/edit)
+### Subtask 2.: Bug report :space_invader:
+:link: [Task 3. Subtask 2.](https://docs.google.com/document/d/1fc_X-yDKoup5dAW1CryDtON9PDTs1DBv-mdBZgsI9uk/edit)
   
-### Subtask 3 - Test report.
-[Link do pliku z Task 3. Subtask 3.](https://docs.google.com/document/d/1KBOfmVwDDewuCNtc_5K7XHYyNXzRtOEJ_VUHEgW1zSM/edit)
+### Subtask 3. - Test report :chart_with_upwards_trend:
+:link: [Task 3. Subtask 3.](https://docs.google.com/document/d/1KBOfmVwDDewuCNtc_5K7XHYyNXzRtOEJ_VUHEgW1zSM/edit)
 
 
 
-## [TASK 4](#TASK-4)
+## [TASK 4.](#TASK-4) Testowanie aplikacji mobilnych :iphone:
+***Na podstawie aplikacji [OLX](https://play.google.com/store/apps/details?id=pl.tablica&hl=pl&gl=US) v. 5.77.0***
+
+### Subtask 1.: Formatka do zgłaszania błędów systemu :memo:
+
+:link: [Task 4. Subtask 1.](https://docs.google.com/document/d/1vt3dzxLDdNeluTY2paLiySLEmWjmvrv8LjWzXWVNItw/edit)
+
+### Subtask 2.: Testowanie eksploracyjne i raportowanie błędów :dizzy:
+
+:link: [Task 4. Subtask 2.](https://docs.google.com/document/d/10Z9YXiHvSQIUTTH_gE_tWjCFvfwflCbufErSiO5BM9w/edit)
  
-### Subtask 1: Formatka do zgłaszania błędów systemu
+### Subtask 3.: Aplikacja OLX :shopping:
 
-***Na podstawie aplikacji OLX***
-
-[Link do pliku z Task 4. Subtask 1.](https://docs.google.com/document/d/1vt3dzxLDdNeluTY2paLiySLEmWjmvrv8LjWzXWVNItw/edit)
-
-### Subtask 2: Testowanie eksploracyjne i raportowanie błędów
-[Link do pliku z Task 4. Subtask 2.](https://docs.google.com/document/d/10Z9YXiHvSQIUTTH_gE_tWjCFvfwflCbufErSiO5BM9w/edit)
- 
-### Subtask 3: Do czego służy ta aplikacja (OLX)?
-
-> Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
+> Do czego służy ta aplikacja? Jaki jest cel tej aplikacji? :shopping_cart:
 
 Aplikacja OLX służy do dodawania / edycji / usuwania ogłoszeń (jako autor), przeglądania i zapisu ogłoszeń (jako nabywca) oraz kontaktowanie się z autorami.
 
@@ -230,27 +236,87 @@ Ma funkcje m.in.:
 - wyloguj się,
 - usuń konto.
 
-> Kto ma być użytkownikiem końcowym aplikacji?
+
+> Kto ma być użytkownikiem końcowym aplikacji? :detective:
 
 Osoby prywatne, które dokonują transakcji na odległość lub osobiście, wymieniają się rzeczami, sprzedają je lub oddają, od innych osób prywatnych lub firm.
-Powinna to być raczej osoba dorosła, która w minimalnym stopniu potrafi posługiwać się telefonem z dostępem do Internetu. Bez znaczenia 
+Powinna to być raczej osoba dorosła, która w minimalnym stopniu potrafi posługiwać się telefonem z dostępem do Internetu. Bez znaczenia jakiej płci, w jakim wieku (chociaż raczej osoby pełnoletnie), z jakiego miejsca - z miasta czy ze wsi (jest możliwość odbioru osobistego czy wysyłka), bez dodatkowych kosztów za prowadzenie podstawowego konta, ale z możliwością wykupienia np. promowania ogłoszenia.
 
 
-> Czy według Ciebie aplikacja jest user friendly?
+> Czy według Ciebie aplikacja jest user-friendly? :teddy_bear:
 
-Raczej tak. Chociaż często zmieniają się kategorie i regulamin strony co może po jakimś czasie irytować.
+Raczej tak. Chociaż często zmieniają się kategorie i regulamin strony co może po jakimś czasie korzystania irytować.
+Główna strona szybko się ładuje. Nawigacja po stronie jest raczej intuicyjna. Treści znajdujące się w aplikacji są w przejrzysty sposób prezentowane - miniatura ogłoszenia (zdjęcie, tytuł, cena, orientacyjne miejsce, data opublikowania) jak i samo ogłoszenie.
+Plusem dla mnie na pewno jest możliwość zmiany trybu z jasnego na ciemny (i odwrotnie również oczywiście) :flashlight:.
 
 
-> Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność?
+> Jak byś usprawniła aplikację? Co byś w niej poprawiła? Czy masz jakiś pomysł na dodatkową funkcjonalność? :bulb:
 
-Jeszcze muszę się nad tym zastanowić.
+Ogólnie aplikacja jest raczej intuicyjna. Podczas testowania znalazłam kilka rzeczy, które podczas codziennego korzystania nie były dla mnie istotne lub nie natrafiłam na nie.
+Zablokowałabym niektóre opcje, np. filtrując wyszukiwania ogłoszeń z kategorii *Oddam za darmo* żeby nie można było wpisać zakresu cen.
+Przy wprowadzeniu opisu na 9000 znaków (taki jest podany limit) nie powinno być możliwości wprowadzenia kolejnych znaków - aktualnie można było wprowadzić przed przynajmniej ostatnim znakiem, który był następnie zastępowany.
 
-> Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+
+> Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej :desktop_computer: , a natywnej? :iphone:
 
 Testowanie aplikacji natywnej jest bardziej ograniczone (sprzętowo) - nie ma możliwości zmiany środowiska testowania, jak w przypadku testowania aplikacji internetowej, gdzie można dowoli zmieniać systemy operacyjne, przeglądarki internetowe itd.
 Na komputerze można emulować telefon czy tablet, w drugą stronę jest to co najmniej uciążliwe.
 
 
-<img src="https://digiday.com/wp-content/uploads/sites/3/2015/08/progress.gif?w=1030" width="500" height="100" />
+## [TASK 5.](#TASK-5) SQL part 1.
 
-**work in progress**
+### Subtask 1: Krótki kurs podstaw SQL
+*Operatory/zapytania jakich się nauczyłam* :brain:
+
+SQL queries:
+- SELECT (some data from database) :point_right: ,
+- CREATE (table) :magic_wand: ,
+- DELETE (some records in the table) :wastebasket: ,
+- DROP (delete column / table / DB with all values) :skull_and_crossbones:,
+- UPDATE (some data) :muscle: ,
+- INSERT INTO (new rows in the table) :new:,
+- ORDER BY ('ASC' - ascending :arrow_upper_right: / 'DESC' - descending order :arrow_lower_right:).
+
+Operators:
+- arithmetic
+  - ADD :heavy_plus_sign: / SUBTRACT :heavy_minus_sign:,
+  - MULTIPLY :heavy_multiplication_x: / DIVIDE :heavy_division_sign: ,
+  - AVG (average) :signal_strength: ,
+  - COUNT (number of rows) :abacus: ,
+  - MAX :arrow_up: / MIN :arrow_down: ,
+  - SUM **=** ;
+
+- comparison
+  - '='  - EQUAL TO,
+  - '>'  - GREATER THAN,
+  - '<'  - LESS THAN,
+  - '>=' - GREATER THAN OR EQUAL TO,
+  - '<=' - LESS THAN OR EQUAL TO,
+  - '<>' - NOT EQUAL TO;
+
+- logical
+  - AND,
+  - BETWEEN,
+  - LIKE,
+  - NOT,
+  - OR.
+
+### Subtask 2.: Konfigurowanie środowiska i wgranie bazy danych :card_index_dividers:
+*Instalacja programu Xampp i pobranie przygotowanej bazy danych (dot. kina).*
+
+### Subtask 3.: Zadania :weight_lifting:
+> Zad. 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+
+Użyte zapytanie:
+```SQL
+SELECT * FROM actors ORDER BY surname;
+```
+Wynik zapytania:
+
+<img width="182" alt="Screenshot_20230213_023956" src="https://user-images.githubusercontent.com/110050632/218533719-af40052c-e7a2-408f-98f0-2fb81c91f191.png">
+
+
+:exclamation: **Ze względu na to, że *Readme* zrobiło się już takie duże, postanowiłam wszystkie zadania z tego subtasku podlinkować do pliku na swoim dysku. 
+Zapraszam!** :slightly_smiling_face:
+
+:point_right: :link: [Task 5. Subtask 3.](https://docs.google.com/document/d/15Ii-GAQ4NuuyP1Q9xO8NAbhr4_eJsbgOZQDd-GOULeo/edit)
