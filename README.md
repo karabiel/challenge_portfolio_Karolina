@@ -316,7 +316,104 @@ Wynik zapytania:
 <img width="182" alt="Screenshot_20230213_023956" src="https://user-images.githubusercontent.com/110050632/218533719-af40052c-e7a2-408f-98f0-2fb81c91f191.png">
 
 
-:exclamation: **Ze względu na to, że *Readme* zrobiło się już takie duże, postanowiłam wszystkie zadania z tego subtasku podlinkować do pliku na swoim dysku. 
-Zapraszam!** :slightly_smiling_face:
+> Zad. 2. Wyświetl film, który powstał w 2019 roku.
 
-:point_right: :link: [Task 5. Subtask 3.](https://docs.google.com/document/d/15Ii-GAQ4NuuyP1Q9xO8NAbhr4_eJsbgOZQDd-GOULeo/edit)
+Użyte zapytanie:
+```SQL
+SELECT * FROM movies WHERE year_of_production = '2019';
+
+```
+Wynik zapytania:
+
+<img width="237" alt="Screenshot_20230213_110426" src="https://user-images.githubusercontent.com/110050632/218595652-6fcc8329-4908-4386-9c18-7d554c04a8e1.png">
+
+
+> Zad. 3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+Użyte zapytanie:
+```SQL
+SELECT * FROM movies WHERE year_of_production BETWEEN 1990 AND 1999;
+
+```
+Wynik zapytania:
+
+<img width="237" alt="Screenshot_20230213_111819" src="https://user-images.githubusercontent.com/110050632/218595788-71249e73-51a4-4c70-a5f8-e6371a631801.png">
+
+
+> Zad. 4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$.
+
+Użyte zapytanie:
+```SQL
+SELECT title, price FROM movies WHERE price < 7;
+```
+Wynik zapytania:
+
+<img width="215" alt="Screenshot_20230213_112134" src="https://user-images.githubusercontent.com/110050632/218595984-b92b4ffe-4381-464f-a423-67c36e6c0bb0.png">
+
+
+> Zad. 5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (bez użycia operatora BETWEEN).
+
+Użyte zapytanie:
+```SQL
+SELECT * FROM actors WHERE actor_id >= 4 AND actor_id <= 7;
+```
+Wynik zapytania:
+
+<img width="171" alt="Screenshot_20230213_112749" src="https://user-images.githubusercontent.com/110050632/218596192-eea5ec0a-3ecf-4260-960f-d8529996a123.png">
+
+
+> Zad. 6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+
+Użyte zapytanie:
+```SQL
+SELECT * FROM customers WHERE customer_id IN (2, 4, 6);
+```
+Wynik zapytania:
+
+
+<img width="260" alt="Screenshot_20230214_121020" src="https://user-images.githubusercontent.com/110050632/218596910-9b8b6b64-4b8f-4b79-b922-7e6cd0410d0d.png">
+
+
+> Zad. 7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+
+Użyte zapytanie:
+```SQL
+SELECT * FROM customers WHERE customer_id IN (1, 3, 5);
+```
+Wynik zapytania:
+
+<img width="250" alt="Screenshot_20230213_113039" src="https://user-images.githubusercontent.com/110050632/218596337-3244af27-5eb4-43e1-a24f-1135e76686c4.png">
+
+
+> Zad. 8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+
+Użyte zapytanie:
+```SQL
+SELECT * FROM actors WHERE name LIKE 'An%';
+```
+Wynik zapytania:
+
+<img width="152" alt="Screenshot_20230213_113513" src="https://user-images.githubusercontent.com/110050632/218596506-30cc4cd3-961f-43b6-9bbd-fcd93923658d.png">
+
+
+> Zad. 9. Wyświetl dane klienta, który nie ma podanego adresu email.
+
+Użyte zapytanie:
+```SQL
+SELECT * FROM customers WHERE email IS NULL;
+```
+Wynik zapytania:
+
+<img width="209" alt="Screenshot_20230213_113702" src="https://user-images.githubusercontent.com/110050632/218596652-3a97bf93-8f9b-496e-8540-0ec472bb2164.png">
+
+
+> Zad. 10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+
+Użyte zapytanie:
+```SQL
+SELECT * FROM movies WHERE price > 9 AND movie_id BETWEEN 2 AND 8;
+```
+Wynik zapytania:
+
+
+<img width="261" alt="Screenshot_20230213_113920" src="https://user-images.githubusercontent.com/110050632/218596768-cdc53fe8-6d4b-4eb0-8563-282515d2fd5c.png">
