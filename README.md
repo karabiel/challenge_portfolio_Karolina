@@ -1,7 +1,7 @@
- # challenge_portfolio_Karolina
+# challenge_portfolio_Karolina
  
 <sub> :blue_heart: Plik zawierający zadania z pierwszego sprintu z DareIT 2023 :blue_heart:
-  
+
 ## [TASK 1.](#TASK-1) Testy eksploracyjne :zap:
   
 ### Subtask 1.: Test z teorii :nerd_face:
@@ -159,9 +159,9 @@ Dodatkowo, w angielskiej wersji językowej formularza: :leg:
 - Przechodząc z wypełnianego formularza użytkownik nie zostaje zapytany, czy na pewno chce porzucić wprowadzane informacje.
 
 
-
 ### Subtask 5.: Jira (zadanie dodatkowe) :star:
 
+<br>
 
 ## [TASK 2.](#TASK-2) Test cases :computer:
 ***Na podstawie strony [Scouts Panel](https://scouts-test.futbolkolektyw.pl/).***
@@ -183,6 +183,7 @@ Dodatkowo, w angielskiej wersji językowej formularza: :leg:
 ### Subtask 4.: Dla chętnych :star2:
 Jestem chętna do zrobienia tego zadania, ściągnęłam nawet tamtą aplikację (*Pick Eat Up*), ale jeszcze nie napisałam do niej TC. Za jakiś czas to uzupełnię. 
 
+<br>
 
 ## [TASK 3.](#TASK-3) Raportowanie błędów
 ***Na podstawie strony [Panel Skautingowy](https://scouts.futbolkolektyw.pl/).***
@@ -193,10 +194,10 @@ Jestem chętna do zrobienia tego zadania, ściągnęłam nawet tamtą aplikację
 ### Subtask 2.: Bug report :space_invader:
 :link: [Task 3. Subtask 2.](https://docs.google.com/document/d/1fc_X-yDKoup5dAW1CryDtON9PDTs1DBv-mdBZgsI9uk/edit)
   
-### Subtask 3. - Test report :chart_with_upwards_trend:
+### Subtask 3.: Test report :chart_with_upwards_trend:
 :link: [Task 3. Subtask 3.](https://docs.google.com/document/d/1KBOfmVwDDewuCNtc_5K7XHYyNXzRtOEJ_VUHEgW1zSM/edit)
 
-
+<br>
 
 ## [TASK 4.](#TASK-4) Testowanie aplikacji mobilnych :iphone:
 ***Na podstawie aplikacji [OLX](https://play.google.com/store/apps/details?id=pl.tablica&hl=pl&gl=US) v. 5.77.0***
@@ -262,8 +263,9 @@ Przy wprowadzeniu opisu na 9000 znaków (taki jest podany limit) nie powinno by�
 Testowanie aplikacji natywnej jest bardziej ograniczone (sprzętowo) - nie ma możliwości zmiany środowiska testowania, jak w przypadku testowania aplikacji internetowej, gdzie można dowoli zmieniać systemy operacyjne, przeglądarki internetowe itd.
 Na komputerze można emulować telefon czy tablet, w drugą stronę jest to co najmniej uciążliwe.
 
+<br>
 
-## [TASK 5.](#TASK-5) SQL part 1.
+## [TASK 5.](#TASK-5) SQL part 1. :heart_decoration:
 
 ### Subtask 1: Krótki kurs podstaw SQL
 *Operatory/zapytania jakich się nauczyłam* :brain:
@@ -417,3 +419,144 @@ Wynik zapytania:
 
 
 <img width="261" alt="Screenshot_20230213_113920" src="https://user-images.githubusercontent.com/110050632/218596768-cdc53fe8-6d4b-4eb0-8563-282515d2fd5c.png">
+
+<br>
+
+## [TASK 6.](#TASK-6) SQL part 2. :heart_decoration:
+
+### Subtask 1: Krótki kurs podstaw SQL cz.2
+Zadania :weight_lifting:
+
+
+> Zad. 11. Zamień nazwisko Ani Muler na Miler.
+
+Użyte zapytanie:
+```SQL
+UPDATE customers SET surname='Miler' WHERE customer_id=3;
+```
+Wynik zapytania:
+
+<img width="261" alt="Table 11" src="https://user-images.githubusercontent.com/110050632/220184793-e55bf9c1-0541-4afa-af95-c83912c52f3a.png">
+
+
+
+>Zad. 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji *join* sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej. 
+
+Użyte zapytanie:
+```SQL
+SELECT customers.name, customers.email, sale.movie_id
+FROM customers
+INNER JOIN sale 
+ON customers.customer_id=sale.customer_id;
+
+```
+Wynik zapytania:
+
+<img width="204" alt="Table 12" src="https://user-images.githubusercontent.com/110050632/220189071-94e6e4e5-e948-4613-b4bf-52628e2baf12.png">
+
+Stratnym klientem jest Katia :cry:
+
+
+> Zad. 13. Uzupełnij e-mail klientce Patrycji wpisując: pati@mail.com.
+
+Użyte zapytanie:
+```SQL
+UPDATE customers SET email='pati@mail.com' WHERE customer_id=4;
+
+```
+Wynik zapytania:
+
+<img width="261" alt="Table 13" src="https://user-images.githubusercontent.com/110050632/220189980-f254f720-79d9-46fc-9c54-46bdc4918332.png">
+
+
+>Zad. 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu.(wykorzystaj do tego funkcję inner join, zastanów się wcześniej,które tabele Ci się przydadzą do wykonania ćwiczenia). 
+
+Użyte zapytanie:
+```SQL
+
+```
+Wynik zapytania:
+
+<img width="261" alt="Table 14" src="www">
+
+
+> Zad. 15. W celu anonimizacjidanych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnęo nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych literimienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+Użyte zapytanie:
+```SQL
+
+```
+Wynik zapytania:
+
+<img width="261" alt="Table 15" src="www">
+
+
+> Zad. 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób,aby tytuły się nie powtarzały. 
+
+Użyte zapytanie:
+```SQL
+
+```
+Wynik zapytania:
+
+<img width="261" alt="Table 16" src="www">
+
+
+
+
+> Zad. 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynikuporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
+Użyte zapytanie:
+```SQL
+
+```
+Wynik zapytania:
+
+<img width="261" alt="Table 17" src="www">
+
+
+> Zad. 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5$ (Pamiętaj, że dolar to domyślna jednostka - nie używaj jej nigdzie). 
+
+Użyte zapytanie:
+```SQL
+
+```
+Wynik zapytania:
+
+<img width="261" alt="Table 18" src="www">
+
+
+
+
+> Zad. 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał 
+
+Użyte zapytanie:
+```SQL
+
+```
+Wynik zapytania:
+
+<img width="261" alt="Table 19" src="www">
+
+
+> Zad. 20. A gdzie nasza HONIA!?Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name= Honia, surname = Stuczka-Kucharska, email = honia@mail.com (mailto:honia@mail.com) oraz pseudonym = Hoa
+
+Użyte zapytanie:
+```SQL
+
+```
+Wynik zapytania:
+
+<img width="261" alt="Table 20" src="www">
+
+
+### Subtask 2.: Test
+
+Wynik z zestawu [ECRU](http://getistqb.com/quiz-ecru/): 12/15 pkt :trophy:
+
+### Subtask 3.: Tworzymy portfolio
+[Link do portfolio](https://github.com/karabiel/portfolio)
+
+<br>
+
+[Go to top ⇧](#challenge_portfolio_Karolina)<a name="challenge_portfolio_Karolina"></a> 
