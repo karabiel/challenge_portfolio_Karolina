@@ -2,6 +2,7 @@
  
 <sub> :blue_heart: Plik zawierający zadania z pierwszego sprintu z DareIT 2023 :blue_heart:
 
+---
 ## [TASK 1.](#TASK-1) Testy eksploracyjne :zap:
   
 ### Subtask 1.: Test z teorii :nerd_face:
@@ -163,6 +164,7 @@ Dodatkowo, w angielskiej wersji językowej formularza: :leg:
 
 <br>
 
+---
 ## [TASK 2.](#TASK-2) Test cases :computer:
 ***Na podstawie strony [Scouts Panel](https://scouts-test.futbolkolektyw.pl/).***
   
@@ -185,6 +187,7 @@ Jestem chętna do zrobienia tego zadania, ściągnęłam nawet tamtą aplikację
 
 <br>
 
+---
 ## [TASK 3.](#TASK-3) Raportowanie błędów
 ***Na podstawie strony [Panel Skautingowy](https://scouts.futbolkolektyw.pl/).***
 
@@ -199,6 +202,7 @@ Jestem chętna do zrobienia tego zadania, ściągnęłam nawet tamtą aplikację
 
 <br>
 
+---
 ## [TASK 4.](#TASK-4) Testowanie aplikacji mobilnych :iphone:
 ***Na podstawie aplikacji [OLX](https://play.google.com/store/apps/details?id=pl.tablica&hl=pl&gl=US) v. 5.77.0***
 
@@ -265,6 +269,7 @@ Na komputerze można emulować telefon czy tablet, w drugą stronę jest to co n
 
 <br>
 
+---
 ## [TASK 5.](#TASK-5) SQL part 1. :heart_decoration:
 
 ### Subtask 1: Krótki kurs podstaw SQL
@@ -304,7 +309,7 @@ Operators:
   - OR.
 
 ### Subtask 2.: Konfigurowanie środowiska i wgranie bazy danych :card_index_dividers:
-*Instalacja programu Xampp i pobranie przygotowanej bazy danych (dot. kina).*
+*Instalacja programu Xampp i pobranie przygotowanej bazy danych (dot. sklepiku z filmami).*
 
 ### Subtask 3.: Zadania :weight_lifting:
 > Zad. 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
@@ -364,7 +369,7 @@ Wynik zapytania:
 <img width="171" alt="Screenshot_20230213_112749" src="https://user-images.githubusercontent.com/110050632/218596192-eea5ec0a-3ecf-4260-960f-d8529996a123.png">
 
 
-> Zad. 6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+> Zad. 6. Wyświetl klientów o id 2, 4, 6 wykorzystaj do tego warunek logiczny.
 
 Użyte zapytanie:
 ```SQL
@@ -376,7 +381,7 @@ Wynik zapytania:
 <img width="260" alt="Screenshot_20230214_121020" src="https://user-images.githubusercontent.com/110050632/218596910-9b8b6b64-4b8f-4b79-b922-7e6cd0410d0d.png">
 
 
-> Zad. 7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+> Zad. 7. Wyświetl klientów o id 1, 3, 5 wykorzystaj do tego operator IN.
 
 Użyte zapytanie:
 ```SQL
@@ -422,6 +427,7 @@ Wynik zapytania:
 
 <br>
 
+---
 ## [TASK 6.](#TASK-6) SQL part 2. :heart_decoration:
 
 ### Subtask 1: Krótki kurs podstaw SQL cz.2
@@ -469,94 +475,111 @@ Wynik zapytania:
 <img width="261" alt="Table 13" src="https://user-images.githubusercontent.com/110050632/220189980-f254f720-79d9-46fc-9c54-46bdc4918332.png">
 
 
->Zad. 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu.(wykorzystaj do tego funkcję inner join, zastanów się wcześniej,które tabele Ci się przydadzą do wykonania ćwiczenia). 
-
+>Zad. 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu, wykorzystaj do tego funkcję inner join.
+	
 Użyte zapytanie:
 ```SQL
-
+SELECT customers.name, customers.surname, movies.title
+FROM movies, customers
+INNER JOIN sale ON customers.customer_id=sale.customer_id;
 ```
 Wynik zapytania:
 
-<img width="261" alt="Table 14" src="www">
+<img width="261" alt="Table 13" src="https://user-images.githubusercontent.com/110050632/220423545-7cb1a96a-a4e3-45cf-9554-88a74ce67db0.png">
 
 
-> Zad. 15. W celu anonimizacjidanych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnęo nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych literimienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+> Zad. 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. Dodaj kolumnę o nazwie *pseudonym* do tabeli customer. Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska - np. Natalie Pilling → Nag
+
+Użyte zapytania:
+```SQL
+ALTER TABLE customers
+ADD COLUMN pseudonym VARCHAR(3);
+```
+
+```SQL
+Update customers
+SET pseudonym = Concat (LEFT (name, 2), RIGHT( surname, 1));
+```
+
+Wynik zapytania:
+
+<img width="261" alt="Table 15" src="https://user-images.githubusercontent.com/110050632/220442391-45554bc7-65a2-408b-a9b0-f6d7f864785c.png">
+
+
+> Zad. 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały. 
 
 Użyte zapytanie:
 ```SQL
-
+SELECT DISTINCT movies.title
+FROM movies
+INNER JOIN sale ON sale.movie_id = movies.movie_id ORDER BY title;
 ```
 Wynik zapytania:
 
-<img width="261" alt="Table 15" src="www">
+<img width="204" alt="Table 16" src="https://user-images.githubusercontent.com/110050632/220453812-b996e3db-159f-4657-9719-a62bc2da4d60.png">
 
 
-> Zad. 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób,aby tytuły się nie powtarzały. 
+> Zad. 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. Wykorzystaj do tego funkcji *UNION*.
 
 Użyte zapytanie:
 ```SQL
-
+SELECT name FROM actors
+UNION
+SELECT name FROM customers
+ORDER BY name;
 ```
 Wynik zapytania:
 
-<img width="261" alt="Table 16" src="www">
+<img width="95" alt="Table 17" src="https://user-images.githubusercontent.com/110050632/220455326-5bbea533-0582-484d-baeb-5f7651644d34.png">
 
 
-
-
-> Zad. 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynikuporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+> Zad. 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5$. 
 
 Użyte zapytanie:
 ```SQL
-
+UPDATE movies
+SET price = price + 2.5 WHERE year_of_production>2000;
 ```
 Wynik zapytania:
 
-<img width="261" alt="Table 17" src="www">
+<img width="261" alt="Table 18" src="https://user-images.githubusercontent.com/110050632/220458479-acb05d30-a453-479a-8da2-01d6c8a2ab02.png">
 
 
-> Zad. 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5$ (Pamiętaj, że dolar to domyślna jednostka - nie używaj jej nigdzie). 
+> Zad. 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.
 
 Użyte zapytanie:
 ```SQL
-
+SELECT actors.name, actors.surname, movies.title
+FROM ((cast
+INNER JOIN actors ON cast.actor_id = actors.actor_id)
+INNER JOIN movies ON cast.movie_id = movies.movie_id) WHERE cast.actor_id=4;
 ```
 Wynik zapytania:
 
-<img width="261" alt="Table 18" src="www">
-
-
-
-
-> Zad. 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał 
+<img width="206" alt="Table 19" src="https://user-images.githubusercontent.com/110050632/220466907-29614d09-1675-4931-90c2-018d53bcf9ff.png">
+	
+	
+> Zad. 20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name= Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.
 
 Użyte zapytanie:
 ```SQL
-
+INSERT INTO customers
+VALUES (7, 'honia@mail.com', 'Honia', 'Hoa', 'Stuczka-Kucharska');
 ```
 Wynik zapytania:
 
-<img width="261" alt="Table 19" src="www">
+<img width="261" alt="Table 20" src="https://user-images.githubusercontent.com/110050632/220468889-3773c34f-054b-43a4-b2b8-227e5213f247.png">
 
 
-> Zad. 20. A gdzie nasza HONIA!?Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name= Honia, surname = Stuczka-Kucharska, email = honia@mail.com (mailto:honia@mail.com) oraz pseudonym = Hoa
-
-Użyte zapytanie:
-```SQL
-
-```
-Wynik zapytania:
-
-<img width="261" alt="Table 20" src="www">
-
-
-### Subtask 2.: Test
+### Subtask 2.: Test z ISTQB
 
 Wynik z zestawu [ECRU](http://getistqb.com/quiz-ecru/): 12/15 pkt :trophy:
 
 ### Subtask 3.: Tworzymy portfolio
-[Link do portfolio](https://github.com/karabiel/portfolio)
+:fire: [Link do portfolio](https://github.com/karabiel/portfolio) :fire:
 
+	
 <br>
 
-[Go to top ⇧](#challenge_portfolio_Karolina)<a name="challenge_portfolio_Karolina"></a> 
+Jesteś na samym dole strony, a potrzebujesz coś z samej góry? Z pomocą przychodzi ta oto niepozorna drabinka
+[:ladder:](#challenge_portfolio_Karolina)<a name="challenge_portfolio_Karolina"></a> 
