@@ -475,7 +475,7 @@ Wynik zapytania:
 <img width="261" alt="Table 13" src="https://user-images.githubusercontent.com/110050632/220189980-f254f720-79d9-46fc-9c54-46bdc4918332.png">
 
 
->Zad. 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu, wykorzystaj do tego funkcję inner join.
+>Zad. 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał zakupu oraz tytuł zakupionego filmu, wykorzystaj do tego funkcję inner join.
 	
 Użyte zapytanie:
 ```SQL
@@ -488,7 +488,7 @@ Wynik zapytania:
 <img width="261" alt="Table 13" src="https://user-images.githubusercontent.com/110050632/220423545-7cb1a96a-a4e3-45cf-9554-88a74ce67db0.png">
 
 
-> Zad. 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. Dodaj kolumnę o nazwie *pseudonym* do tabeli customer. Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska - np. Natalie Pilling → Nag
+> Zad. 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. Dodaj kolumnę o nazwie *pseudonym* do tabeli customers. Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska - np. Natalie Pilling → Nag
 
 Użyte zapytania:
 ```SQL
@@ -498,7 +498,7 @@ ADD COLUMN pseudonym VARCHAR(3);
 
 ```SQL
 Update customers
-SET pseudonym = Concat (LEFT (name, 2), RIGHT( surname, 1));
+SET pseudonym = Concat (LEFT (name, 2), RIGHT(surname, 1));
 ```
 
 Wynik zapytania:
@@ -519,7 +519,7 @@ Wynik zapytania:
 <img width="204" alt="Table 16" src="https://user-images.githubusercontent.com/110050632/220453812-b996e3db-159f-4657-9719-a62bc2da4d60.png">
 
 
-> Zad. 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. Wykorzystaj do tego funkcji *UNION*.
+> Zad. 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. Wykorzystaj do tego funkcję *UNION*.
 
 Użyte zapytanie:
 ```SQL
@@ -582,4 +582,4 @@ Wynik z zestawu [ECRU](http://getistqb.com/quiz-ecru/): 12/15 pkt :trophy:
 <br>
 
 Jesteś na samym dole strony, a potrzebujesz coś z samej góry? Z pomocą przychodzi ta oto niepozorna drabinka
-[:ladder:](#challenge_portfolio_Karolina)<a name="challenge_portfolio_Karolina"></a> 
+[:cloud: :ladder: :cloud:](#challenge_portfolio_Karolina)<a name="challenge_portfolio_Karolina"></a> 
