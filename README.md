@@ -16,7 +16,11 @@ Właśnie się w nim znajdujemy :innocent:
 
 Cześć :wave: Mam na imię Karolina. :blonde_woman:
 
-Mam nadzieję nabyć nowe umiejętności dzięki temu challenge'owi oraz wykorzystać swoje cechy - dokładność :jigsaw: , dociekliwość :raised_eyebrow: , spostrzegawczość :mag: - dzięki którym uda mi się sprawniej przebranżowić. M.in. w tym celu tworzę portfolio, które pozwoli mi się wykazać. :woman_technologist: 
+Mam nadzieję nabyć nowe umiejętności dzięki temu challenge'owi oraz wykorzystać swoje cechy - dokładność :jigsaw: , dociekliwość :raised_eyebrow: , spostrzegawczość :mag: - dzięki którym uda mi się sprawniej przebranżowić. M.in. w tym celu tworzę portfolio, które pozwoli mi się wykazać. :woman_technologist:
+
+Zapraszam do przejrzenia mojego portfolio
+[<img width="30" alt="Github logo" src="https://user-images.githubusercontent.com/110050632/220699930-d425d600-c30a-499d-8bf9-a713cf389535.png">](https://github.com/karabiel/portfolio) oraz do kontaktu przez portal LinkedIn
+[<img width="20" alt="LinkedIn logo" src="https://user-images.githubusercontent.com/110050632/220698295-2aaafcfd-449e-4ebc-8b83-150a4fe3ddac.png">](https://www.linkedin.com/in/karabiel/).
 
   
 ### Subtask 4.: Testy eksploracyjne na podstawie strony *[Scouts Panel](https://scouts-test.futbolkolektyw.pl/)*
@@ -172,7 +176,7 @@ Dodatkowo, w angielskiej wersji językowej formularza: :leg:
 :link: [Task 2. Subtask 1.](https://docs.google.com/document/d/16axYt9oWGVhoxJG_qsYtjMcE5DUH_8Lb6Pc2V6E4WtQ/edit?usp=sharing)
 
 
-### Subtask 2.: Pisanie przypadków testowych na podstawie :sparkles: własnych doświadczeń :sparkles:.
+### Subtask 2.: Pisanie przypadków testowych na podstawie :sparkles: własnych doświadczeń :sparkles:
 :link: [Task 2. Subtask 2.](https://docs.google.com/document/d/1GMdhsz729eZkyM9er0wHh-U1uyYDE_b8DTaAOpzDUXg/edit)
 
 
